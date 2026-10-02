@@ -306,6 +306,8 @@ enum smp_transport_type {
 	SMP_UDP_IPV4_TRANSPORT,
 	/** SMP UDP IPv6 */
 	SMP_UDP_IPV6_TRANSPORT,
+	/** SMP raw Ethernet */
+	SMP_ETH_TRANSPORT,
 	/** SMP LoRaWAN */
 	SMP_LORAWAN_TRANSPORT,
 	/** SMP SPI */
